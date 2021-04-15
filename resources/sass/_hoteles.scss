@@ -1,0 +1,143 @@
+body{
+    font-family: $font-family-sans-serif;
+}
+
+trix-editor {
+    height: auto!important;
+    min-height: 300px;
+}
+
+th{
+    text-align: center;
+}
+
+th, td {
+    max-width: 100px;
+}
+
+.bg-dark .navbar-brand {
+    color: #fca311;
+
+    &:hover{
+        color: #929292;
+    }
+}
+
+.bg-grey { background-color: $grey !important}
+
+.bg-secondary { background-color: $secondary !important}
+
+.btn-blueDark { 
+    background-color: $blueDark !important;
+
+    &:hover{
+        color: #003566;
+    }
+}
+
+.btn-primary {
+    color: white;
+    
+    &:hover{
+        color: white;
+    }
+}
+
+.btn .btn-link {
+    color: #3b3b3b;
+
+    &:hover{
+        color: #3b3b3b;
+    }
+}
+
+.buttons{
+    display: inline-block;
+    padding-left: 7%;
+}
+
+.carousel-caption {
+    left: 76% !important;
+}
+
+.contenido-hotel {
+    padding-left: 20%;
+}
+
+.contener {
+    width: 1000px;
+}
+
+.first img, svg {
+    vertical-align: middle;
+    border-radius: 50% !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fca311;
+
+    &:hover{
+        color: #929292;
+    }
+}
+
+.services {
+    text-align: center !important;
+}
+
+#card-crear {
+    background-color: #3b3b3b !important;
+    color: white;
+}
+
+.titles {
+    color: white;
+}
+
+#dataTable {
+    width: 900px;
+}
+
+th{
+    text-align: center;
+}
+
+a {
+    
+    color: #929292;
+
+    &:hover{
+        text-decoration: none;
+    }
+}
+#administrator-name{
+    display: block;
+}
+
+#card-crear {
+    max-width: 900px;
+}
+
+#edit-title{
+    text-transform: uppercase;
+}
+
+#perfil-image{
+    border-radius: 50%;
+    max-width: 35%;
+    max-height: 35%;
+    border-color: black;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    width: 90%;
+}
+
+#sidebar-container .logo{
+    padding: 0.875rem 1.25rem;
+}
+
+#sidebar-container .menu {
+    width: 18rem;
+}
